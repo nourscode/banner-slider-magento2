@@ -1,0 +1,13 @@
+{
+    "name": "nourcode/banner-slider-magento2",
+    "version": "0.0.1",
+    "type": "magento2-module",
+    "autoload": {
+        "psr-4": {
+            "NourCode\\Bannerslider\\": ""
+        },
+        "files": [
+          "registration.php"
+        ]
+    }
+}

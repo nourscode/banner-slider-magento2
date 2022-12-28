@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- /**
+ * NourCode
+ * @category    NourCode
+ * @copyright   Copyright (c) 2014 NourCode (http://www.nourcode.net/)
+ * @license     http://www.nourcode.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2016-02-23 18:59:34
+ * @@Modify Date: 2016-04-22 17:12:32
+ * @@Function:
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<update id="nourcode" title="NourCode" module="NourCode_Bannerslider" sortOrder="10" resource="NourCode_Bannerslider::nourcode"/>
+
+	        <add id="NourCode_Bannerslider::bannerslider" title="Magic Slider" module="NourCode_Bannerslider" sortOrder="10" parent="nourcode" resource="NourCode_Bannerslider::bannerslider"/>
+
+				<add id="NourCode_Bannerslider::bannerslider_index" title="Slider" module="NourCode_Bannerslider" sortOrder="10" parent="NourCode_Bannerslider::bannerslider" action="bannerslider/index" resource="NourCode_Bannerslider::bannerslider_index"/>
+    </menu>
+</config>
